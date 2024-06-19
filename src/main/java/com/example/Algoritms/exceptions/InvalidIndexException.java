@@ -8,6 +8,7 @@ public class InvalidIndexException extends RuntimeException {
         super(message);
     }
 
+
     public InvalidIndexException(String message, Throwable cause) {
         super(message, cause);
     }

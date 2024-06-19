@@ -132,6 +132,7 @@ public class MyArrayList implements StringList{
         return size;
     }
 
+
     @Override
     public boolean isEmpty() {
         return size == 0;

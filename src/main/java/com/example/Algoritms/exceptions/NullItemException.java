@@ -9,6 +9,7 @@ public class NullItemException extends RuntimeException {
         super(cause);
     }
 
+
     public NullItemException(String message, Throwable cause) {
         super(message, cause);
     }

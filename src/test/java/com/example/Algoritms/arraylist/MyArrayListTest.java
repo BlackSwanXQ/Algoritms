@@ -115,6 +115,7 @@ class MyArrayListTest {
         assertThat(list.equals(list)).isTrue();
     }
 
+
     @Test
     void sizeDataTest() {
         assertThat(list.size()).isEqualTo(5);

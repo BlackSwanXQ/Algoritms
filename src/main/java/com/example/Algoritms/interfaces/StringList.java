@@ -1,6 +1,7 @@
 package com.example.Algoritms.interfaces;
 
 public interface StringList {
+
     String add(String item);
     String add(int index, String item);
     String set(int index, String item);

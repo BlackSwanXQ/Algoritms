@@ -12,6 +12,7 @@ public class StorageIsFullException extends RuntimeException {
         super(message, cause);
     }
 
+
     public StorageIsFullException(Throwable cause) {
         super(cause);
     }

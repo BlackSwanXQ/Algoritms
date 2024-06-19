@@ -3,12 +3,14 @@ import com.example.Algoritms.arraylist.MyArrayList;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 //@SpringBootApplication
 public class AlgoritmsApplication {
 
 //	public static void main(String[] args) {
 //		SpringApplication.run(AlgoritmsApplication.class, args);
 //	}
+
 
 	public static void main(String[] args) {
 
@@ -25,7 +27,7 @@ public class AlgoritmsApplication {
 		myArrayList.add(3, "WW");
 		myArrayList.add(5, "XX");
 		myArrayList.remove("E");
-		myArrayList.remove(1);
+//		myArrayList.remove(1);
 
 		for (int i = 0; i < myArrayList.size(); i++) {
 			System.out.println(myArrayList.get(i));
